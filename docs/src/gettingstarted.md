@@ -4,7 +4,7 @@ Query.jl supports two different front-end syntax options: 1) standalone query op
 
 ## Standalone query operators
 
-The standalone query operators are typically combined into more complicated queries via the pipe operator. The example from the previous section can also be written like this, using the `@filter` and `@map` standalone query operators:
+The standalone query operators are typically combined into more complicated queries via the pipe operator. Here is an example, using the `@filter` and `@map` standalone query operators:
 
 ```jldoctest
 using Query, DataFrames
